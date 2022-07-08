@@ -1,0 +1,203 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover">
+  <title>My LIFF App</title>
+  <style>
+    body { padding: 256px }
+    button { display: none; width: 50%; padding: 16px 0; margin: 16px auto }
+  </style>
+</head>
+<body>
+  <script src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
+  <script>
+    async function main() {
+        await liff.init({ liffID: "1657286865"})
+        await liff.shareTargetPicker([
+        {
+          "type": "flex",
+          "altText": "Flex Message ",
+          "contents": {
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://glunjai.com/wp-content/uploads/2022/06/277768760_10221489065036817_6828533748800002917_n.jpg",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover",
+    "action": {
+      "type": "uri",
+      "label": "Line",
+      "uri": "https://linecorp.com/"
+    }
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "กลั่นใจให้เป็นสุข รุ่นที่ 17",
+        "weight": "bold",
+        "size": "lg",
+        "contents": []
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "margin": "md",
+        "contents": [
+          {
+            "type": "icon",
+            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png",
+            "size": "sm"
+          },
+          {
+            "type": "icon",
+            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png",
+            "size": "sm"
+          },
+          {
+            "type": "icon",
+            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png",
+            "size": "sm"
+          },
+          {
+            "type": "icon",
+            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png",
+            "size": "sm"
+          },
+          {
+            "type": "icon",
+            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png",
+            "size": "sm"
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "margin": "lg",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "วันที่",
+                "size": "sm",
+                "color": "#AAAAAA",
+                "contents": []
+              },
+              {
+                "type": "text",
+                "text": "7 - 13 สิงหาคม 2565",
+                "size": "sm",
+                "color": "#666666",
+                "flex": 5,
+                "align": "start",
+                "wrap": true,
+                "contents": []
+              },
+              {
+                "type": "spacer",
+                "size": "xl"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "spacer"
+              },
+              {
+                "type": "text",
+                "text": "วันที่  7 สิงหาคม 2565",
+                "size": "sm",
+                "contents": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "19.20 น. ปฐมนิเทศ",
+            "size": "sm",
+            "color": "#666666",
+            "contents": []
+          },
+          {
+            "type": "text",
+            "text": "19.45 น. พิธีกรพาปรับกายปรับใจ",
+            "size": "sm",
+            "color": "#666666",
+            "contents": []
+          },
+          {
+            "type": "text",
+            "text": "20.00 น. พระอาจารย์ลงแนะนำสมาธิ",
+            "size": "sm",
+            "color": "#666666",
+            "contents": []
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "flex": 0,
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "เข้าทางคอมพิวเตอร์",
+          "text": "เข้าทางคอมพิวเตอร์"
+        }
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "Zoom",
+          "uri": "https://liff.line.me/1657262817-nGM4eX0p"
+        },
+        "color": "#4A8CFF",
+        "margin": "xxl",
+        "height": "md",
+        "style": "primary"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "แชร์",
+          "uri": "https://liff.line.me/1657286865-l1py4odz"
+        },
+        "color": "#FF0000",
+        "margin": "xxl",
+        "height": "md",
+        "style": "primary"
+      }
+    ]
+  }
+}
+        }   
+        [)
+        lifff.closeWindow()
+    }
+    main()   
+</script> 
+</body>
+
+
+            
